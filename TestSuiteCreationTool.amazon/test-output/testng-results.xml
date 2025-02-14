@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-14T19:02:25 IST" name="Suite" finished-at="2025-02-14T19:03:14 IST" duration-ms="49483">
+    <groups>
+    </groups>
+    <test started-at="2025-02-14T19:02:25 IST" name="TestTool" finished-at="2025-02-14T19:03:14 IST" duration-ms="49483">
+      <class name="jira.LaunchJiraTest">
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:jira.LaunchJiraTest@702b8b12]" started-at="2025-02-14T19:02:25 IST" name="launchURL" finished-at="2025-02-14T19:02:58 IST" duration-ms="33172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="testdata(java.lang.Object,java.lang.Object)[pri:0, instance:jira.LaunchJiraTest@702b8b12]" started-at="2025-02-14T19:02:59 IST" name="testdata" data-provider="ExcelData" finished-at="2025-02-14T19:03:03 IST" duration-ms="4218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2024.4INT1_P0_Greenwood_iOS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[669178]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdata -->
+        <test-method signature="testdata(java.lang.Object,java.lang.Object)[pri:0, instance:jira.LaunchJiraTest@702b8b12]" started-at="2025-02-14T19:03:03 IST" name="testdata" data-provider="ExcelData" finished-at="2025-02-14T19:03:07 IST" duration-ms="3410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2024.4INT1_P0_Arrowhead_iOS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[669177]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdata -->
+        <test-method signature="testdata(java.lang.Object,java.lang.Object)[pri:0, instance:jira.LaunchJiraTest@702b8b12]" started-at="2025-02-14T19:03:07 IST" name="testdata" data-provider="ExcelData" finished-at="2025-02-14T19:03:10 IST" duration-ms="3414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2024.4INT1_Sanity_Muffin_iOS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[487473]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdata -->
+        <test-method signature="testdata(java.lang.Object,java.lang.Object)[pri:0, instance:jira.LaunchJiraTest@702b8b12]" started-at="2025-02-14T19:03:10 IST" name="testdata" data-provider="ExcelData" finished-at="2025-02-14T19:03:13 IST" duration-ms="3429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2024.4INT1_Sanity_Zephyr_iOS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[487475]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdata -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:jira.LaunchJiraTest@702b8b12]" started-at="2025-02-14T19:03:13 IST" name="teardown" finished-at="2025-02-14T19:03:14 IST" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- jira.LaunchJiraTest -->
+    </test> <!-- TestTool -->
+  </suite> <!-- Suite -->
+</testng-results>
