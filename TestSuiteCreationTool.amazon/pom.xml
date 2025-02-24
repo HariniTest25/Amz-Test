@@ -68,8 +68,8 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<classpathPrefix>lib/</classpathPrefix>
-							<mainClass>org.testng.TestNG</mainClass>
+							<!--<classpathPrefix>lib/</classpathPrefix>-->
+							<mainClass>jira.TestNGRunnerClassTest</mainClass>
 						</manifest>
 					</archive>
 				</configuration>

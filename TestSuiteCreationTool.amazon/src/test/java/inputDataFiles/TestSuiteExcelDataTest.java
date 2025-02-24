@@ -24,7 +24,7 @@ public class TestSuiteExcelDataTest extends UtilitiesData{
 	public Object[][] inputdata() {
 		String datafile = prop.getProperty("ExcelFile"); 
 		//String datafile = "C:\\Users\\nharinib\\Desktop\\TestCyclesData.xlsx";
-		System.out.println(datafile);
+		//System.out.println(datafile);
 		try {
 			workbook = new XSSFWorkbook(datafile);
 			sheet = workbook.getSheet("Sheet1");
